@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variaveis</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script>
+        //Declaração de variáveis
+        //var é o tipo de vareável super global
+        var nome; //Declaração da variável vazia
+        //const é o tipo de constante
+
+       const registro = '000.000.000.01';
+       //let variável de escopo local
+       let idade;
+
+
+       //Declaração multiplas
+       let sala, turma, aluno;
+       var num1 = 3, num2 = 6, num3 = 9;
+
+       //Atribuir valor às variáveis 
+        nome = 'Kleytton' //Utilizamos o sinal de igualdade depois do nome da variaável.
+        console.log(nome);
+
+        nome = 'totoso';
+
+        console.log(nome);
+
+        //Acessando árvore do DOM e seus method 
+  /*       window.document.write('<h1>');
+        window.document.write('Salve totozo');
+        window.document.write('</h1>');
+
+        document.write('Aqui tem uma constante:' + registro + '<br>');
+        //registro é uma constatante onde não é possivel alterarseu valor 
+        /* regristro = 'mudado';  Não é possivel realizar essa mudança 
+        document.write('mudamos a constante para' + registro + '<br>'); */
+
+
+        nome = prompt('Diga seu nome aeee:');
+        idade = prompt('Esua idade pae qual é??');
+
+        //convertendo string para number(int)
+        let idadeConvertida = parseInt(idade)
+
+        document.write('<h2>'+ 'Salve ' + nome + '!'+ '</h2>');
+        document.write('<p>');
+         document.write ( nome +' você tem:'+ idade + ' anos'+ '<br>');
+         document.write('<img class="gif" src="omega-portal.gif" width="300"/>')
+        document.write('<br>' + 'Clique na imagem acima e descubra seu destino!')
+         let morte =   idadeConvertida - ((num2*idadeConvertida)/num3) +num1;
+         console.log(morte);
+
+        document.write('</p>');
+
+        let imgClick =  document.querySelector('.gif');
+        imgClick.addEventListener('click', function futuro(){
+            /* alert('tudo certo pae'); */
+
+        
+
+        //Advinhando tempo de vida
+
+        const ano = 2023;
+
+        document.write('<br>'+ '<br>')
+        document.write('<p>' + nome + ', apesar dos seus' + idade + ' anos de vida'+ '<br>')
+
+        document.write('Ainda restam para você: ' + morte + 'anos de vida' + '<br>')
+
+        
+
+        document.write('Sendo assim você bate as botas no ano de:' + (morte+ano));
+    }); 
+    </script>
+
+   
+</body>
+</html>
